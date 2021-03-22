@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "npx nextjs-azure-function && next build && next export && npx nextjs-azure-function",
+    "build": "npx nextjs-azure-function && next build && next export",
     "start": "next start"
   },
   "dependencies": {
