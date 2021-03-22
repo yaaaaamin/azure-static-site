@@ -4,11 +4,12 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "npm i nextjs-azure-function && next build && next export",
+    "build": "npx nextjs-azure-function && next build && next export",
     "start": "next start"
   },
   "dependencies": {
     "isomorphic-unfetch": "^3.0.0",
+    "klaw": "^3.0.0",
     "next": "^10.0.7",
     "nextjs-azure-function": "^1.0.12",
     "react": "16.13.1",
