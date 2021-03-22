@@ -8,7 +8,7 @@ import { useState, useEffect } from "react";
 const Home = () => {
   const [state, setState] = useState(null);
   const test = async () => {
-    const response = await axios.get("/api");
+    const response = await axios.get("/api/home");
     setState(response.data);
   };
   useEffect(() => {
