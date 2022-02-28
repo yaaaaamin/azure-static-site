@@ -6,7 +6,7 @@
  */
 export default async function token(req, res) {
   try {
-    res.json({ key: 1, value: "Test" });
+    res.status(200).json({ name: 'John Doe' })
   } catch (error) {
     console.error(error);
     res.status(error?.status || 500).end(error.message);
